@@ -6,10 +6,10 @@ This repository documents my Python apprenticeship, showcasing my progress and p
 
 ## Days Filled
 
-1. Day 7 - Hangman
-2. Day 8 - Functions
-3. Day 9 - Dictionaries
-4. Day 10 - Calculator
+7. Day 7 - Hangman
+8. Day 8 - Functions
+9. Day 9 - Dictionaries
+10. Day 10 - Calculator
 
 ## Project Details
 
