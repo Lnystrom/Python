@@ -14,9 +14,10 @@
 
 from prettytable import PrettyTable
 
+table = PrettyTable() #object created from this prettytable class
+table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"]) #called the method on object
+table.add_column("Pokemon Type", ["Eletric", "Water", "Fire"])
+table.align = "l" #atribute
+table.border = True
 
-x = PrettyTable(["City name", "Area", "Population", "Annual Rainfall"]) x.align["City name"] = "l" # Left align city names x.padding_width = 1
-x.add_row(["Adelaide",1295, 1158259, 600.5])
-x.add_row(["Brisbane",5905, 1857594, 1146.4]) 
-x.add_row(["Darwin", 112, 120900, 1714.7])
-print(x)
+print(table)
