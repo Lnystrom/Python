@@ -12,9 +12,13 @@ timmy_the_turtle.shape("arrow")
 timmy_the_turtle.color("honeydew2")
 
 #movimentação
-for _ in range(4):
-    timmy_the_turtle.forward(50)
-    timmy_the_turtle.right(90)
+for _ in range(30):
+    timmy_the_turtle.forward(30)
+    if _%2 == 0:
+        timmy_the_turtle.pendown()
+    else:
+        timmy_the_turtle.penup()
+   
 
 #isso deve ocorrer depois de criar a tartaruga
 screen = Screen()
