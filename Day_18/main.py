@@ -1,4 +1,5 @@
 from turtle import Turtle, Screen
+#from turtle import * // Importa todas as classes dentro do módulo
 
 #para saber como usa deve-se pesquisar a documentação da API
 #é uma boa ideia utilizar StackOverflow
