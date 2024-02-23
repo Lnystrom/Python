@@ -18,13 +18,17 @@ def random_color():
 #aparência
 timmy_the_turtle = Turtle()
 timmy_the_turtle.shape("square")
-timmy_the_turtle.speed(6)
+timmy_the_turtle.speed(0)
 
-for walk in range (0,100):
-    timmy_the_turtle.pensize(10)
+timmy_the_turtle.circle(100)
+for walk in range (0,120):
+    timmy_the_turtle.circle(100)
+    timmy_the_turtle.left(3)
     timmy_the_turtle.color(random_color())
-    timmy_the_turtle.right(random.choice(directions))
-    timmy_the_turtle.forward(40)
+#     timmy_the_turtle.pensize(10)
+#     
+#     
+#     timmy_the_turtle.forward(40)
 
 #isso deve ocorrer depois de criar a tartaruga
 screen = Screen()
