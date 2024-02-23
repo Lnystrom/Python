@@ -25,10 +25,6 @@ for walk in range (0,120):
     timmy_the_turtle.circle(100)
     timmy_the_turtle.left(3)
     timmy_the_turtle.color(random_color())
-#     timmy_the_turtle.pensize(10)
-#     
-#     
-#     timmy_the_turtle.forward(40)
 
 #isso deve ocorrer depois de criar a tartaruga
 screen = Screen()
